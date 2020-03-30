@@ -12,7 +12,8 @@
 </head>
 <body>
 <div class="bg">
-    <img class="poster" src="binz1.png">
+    <img class="" src="binz1.png">
+<!--    <img class="poster" src="binz1.png">-->
 </div>
 
 <div>
@@ -29,22 +30,24 @@
         </div>
     </div>
 </div>
+
+
 <script>
     let songs=["CryingOverYou.mp3", "DieuBiMat.mp3","RoiXa.mp3"];
     let poster=["binz1.png", "binz.jpg", "binz2.jpg"];
     let title=document.getElementById("title");
     let song=new Audio();
     let currentSong=0;
-    
+
     window.onload = playSong;
-    
+
     function playSong() {
         song.src = songs[currentSong];
         title.textContent = songs[currentSong];
         const playPromise = song.play();
         if (playPromise !== null){
             playPromise.catch(() => {song.play()})
-        } 
+        }
     }
 
     function playOrPause() {
@@ -56,7 +59,7 @@
             $("#play img").attr("src", "play.svg");
         }
     }
-    
+
     function next() {
         currentSong++;
         if (currentSong > 2){
