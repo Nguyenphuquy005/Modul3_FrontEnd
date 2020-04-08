@@ -1,0 +1,44 @@
+<div class="row justify-content-between pl-3">
+  <h2>Danh sách nhân viên</h2>
+  <div class="d-flex">
+  <input style="width: 400px" class="form-control mr-3" placeholder="">
+    <button type="button" class="btn btn-danger">Search</button>
+  </div>
+</div>
+<div class="mt-3">
+  <a [routerLink]="['/add-new-employee']" style="width: 10em ;color: white" type="button" class="btn btn-danger mb-5">Thêm mới</a>
+  <table class="table">
+      <thead>
+      <tr>
+       <th>ID</th>
+       <th>Họ và tên</th>
+       <th>Vị trí</th>
+       <th>Trình độ</th>
+       <th>Bộ phân</th>
+       <th>Ngày sinh</th>
+       <th>Số CMND</th>
+       <th>Email</th>
+       <th>SĐT</th>
+       <th>Địa chỉ</th>
+       <th>Action</th>
+      </tr>
+      </thead>
+    <tbody>
+        <tr *ngFor="let employeeService of employees">
+            <td>{{employeeService.id}}</td>
+            <td>{{employeeService.fullName}}</td>
+            <td>{{employeeService.position}}</td>
+            <td>{{employeeService.academicLevel}}</td>
+            <td>{{employeeService.part}}</td>
+            <td>{{employeeService.dateOfBirth}}</td>
+            <td>{{employeeService.salary}}</td>
+            <td>{{employeeService.email}}</td>
+            <td>{{employeeService.phoneNumber}}</td>
+            <td>{{employeeService.address}}</td>
+             <td><button type="button" class="btn btn-warning">Edit</button>
+               <button type="button" class="btn btn-primary">Delete</button>
+             </td>
+        </tr>
+    </tbody>
+    </table>
+</div>

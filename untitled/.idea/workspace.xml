@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aea548d7-22fa-47a5-a548-62a0bf713edb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/font-size.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/caculator/caculator.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/caculator/caculator.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/caculator/caculator.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/caculator/caculator.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/color-picker/color-picker.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/color-picker/color-picker.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/color-picker/color-picker.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/color-picker/color-picker.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/font-size-editor/font-size-editor.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/font-size-editor/font-size-editor.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/font-size-editor/font-size-editor.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/font-size-editor/font-size-editor.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/name-cart/name-cart.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/name-cart/name-cart.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/name-cart/name-cart.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/name-cart/name-cart.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/pet/pet.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/pet/pet.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/pet/pet.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/pet/pet.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/progress-bar/progress-bar.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/progress-bar/progress-bar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/progress-bar/progress-bar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/progress-bar/progress-bar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/rating-bar/rating-bar.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/rating-bar/rating-bar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/rating-bar/rating-bar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/app/rating-bar/rating-bar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/font-size/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typescrip/demo/typescript-demo" beforeDir="false" afterPath="$PROJECT_DIR$/../typescrip/demo/typescript-demo" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZsoWDMhXc68oXB3UJzQzPWIIZf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aea548d7-22fa-47a5-a548-62a0bf713edb" name="Default Changelist" comment="" />
+      <created>1585637193308</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585637193308</updated>
+      <workItem from="1585637201071" duration="51000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1585637240472">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585637240472" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585637201186">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585637201186" />
+    <state x="65" y="88" key="new project wizard" timestamp="1585637252992">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="88" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585637252992" />
+  </component>
+</project>
