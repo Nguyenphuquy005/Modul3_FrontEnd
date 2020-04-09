@@ -1,3 +1,37 @@
+<div *ngIf="isdialog" style="border: 1px solid black;position: fixed;background-color: wheat;width: 45em
+;margin-top: 0" id="dialog" title="Basic dialog">
+  <div  class="d-flex justify-content-between"><h1 *ngIf="isedit">Add New EmPloyee</h1>
+                                                <h1 *ngIf="isdelete">Delete Employee</h1>
+    <button (click)="close()">close</button></div>
+  <form *ngIf="update" class="form-control">
+    <input type="text" class="form-control" [(ngModel)]="update.id"  [ngModelOptions]="{standalone: true}"> <br>
+    <div>1.Họ và tên: </div>
+    <input type="text" class="form-control" [(ngModel)]="update.fullName"  [ngModelOptions]="{standalone: true}"> <br>
+    <div>2.Vị trí: </div>
+    <input type="text" class="form-control" [(ngModel)]="update.position" [ngModelOptions]="{standalone: true}"><br>
+    <div>3.Trình Độ: </div>
+    <input type="text" class="form-control" [(ngModel)]="update.academicLevel" [ngModelOptions]="{standalone: true}"><br>
+    <div>4.Bộ phận: </div>
+    <input type="text" class="form-control" [(ngModel)]="update.part" [ngModelOptions]="{standalone: true}"><br>
+    <div>5.Ngày sinh: </div>
+    <input type="text" class="form-control" [(ngModel)]="update.dateOfBirth" [ngModelOptions]="{standalone: true}"><br>
+    <div>7.Lương: </div>
+    <input type="text"class="form-control"  [(ngModel)]="update.salary" [ngModelOptions]="{standalone: true}"><br>
+    <div>8.Email: </div>
+    <input type="text" class="form-control" [(ngModel)]="update.email" [ngModelOptions]="{standalone: true}"><br>
+    <div>9.Số Điện thoại: </div>
+    <input type="text" class="form-control" [(ngModel)]="update.phoneNumber" [ngModelOptions]="{standalone: true}"><br>
+    <div>10.Địa chỉ: </div>
+    <input type="text"  class="form-control" [(ngModel)]="update.address" [ngModelOptions]="{standalone: true}"><br>
+    <button *ngIf="isedit" (click)="updateemployee()" class="btn btn-dark" type="button">Add New Employee</button>
+    <button *ngIf="isdelete" (click)="deleteAction()" class="btn btn-dark" type="button">Delete Employee</button>
+  </form>
+  <script>
+    $( function() {
+      $( "#dialog" ).dialog();
+    } );
+  </script>
+</div>
 <div class="row justify-content-between pl-3">
   <h2>Danh sách nhân viên</h2>
   <div class="d-flex">
@@ -6,7 +40,7 @@
   </div>
 </div>
 <div class="mt-3">
-  <a [routerLink]="['/add-new-employee']" style="width: 10em ;color: white" type="button" class="btn btn-danger mb-5">Thêm mới</a>
+  <a [routerLink]="['/create-employee']" style="width: 10em ;color: white" type="button" class="btn btn-danger mb-5">Thêm mới</a>
   <table class="table">
       <thead>
       <tr>
@@ -34,11 +68,15 @@
             <td>{{employeeService.salary}}</td>
             <td>{{employeeService.email}}</td>
             <td>{{employeeService.phoneNumber}}</td>
+
             <td>{{employeeService.address}}</td>
-             <td><button type="button" class="btn btn-warning">Edit</button>
-               <button type="button" class="btn btn-primary">Delete</button>
+             <td>
+               <button id="dialogedit" type="button" class="btn btn-warning" (click)="editEmployee(employeeService)">Edit</button>
+               <button  type="button" class="btn btn-warning" (click)="deleteEmployee(employeeService)">Delete</button>
              </td>
         </tr>
     </tbody>
     </table>
 </div>
+
+

@@ -1,0 +1,29 @@
+<h1>Add New EmPloyee</h1>
+<form class="form-control">
+  <div>1.Họ và tên: </div>
+  <input type="text" class="form-control" [(ngModel)]="fullName"  [ngModelOptions]="{standalone: true}"> <br>
+  <p>{{ fullName }}</p>
+  <div>2.Vị trí: </div>
+  <input type="text" class="form-control" [(ngModel)]="position" [ngModelOptions]="{standalone: true}"><br>
+  <div>3.Trình Độ: </div>
+  <input type="text" class="form-control" [(ngModel)]="academicLevel" [ngModelOptions]="{standalone: true}"><br>
+  <div>4.Bộ phận: </div>
+  <input type="text" class="form-control" [(ngModel)]="part" [ngModelOptions]="{standalone: true}"><br>
+  <div>5.Ngày sinh: </div>
+  <input type="text" class="form-control" [(ngModel)]="dateOfBirth" [ngModelOptions]="{standalone: true}"><br>
+  <div>7.Lương: </div>
+  <input type="text"class="form-control"  [(ngModel)]="salary" [ngModelOptions]="{standalone: true}"><br>
+  <div>8.Email: </div>
+  <input type="text" class="form-control" [(ngModel)]="email" [ngModelOptions]="{standalone: true}"><br>
+  <div>9.Số Điện thoại: </div>
+  <input type="text" class="form-control" [(ngModel)]="phoneNumber" [ngModelOptions]="{standalone: true}"><br>
+  <div>10.Địa chỉ: </div>
+  <input type="text"  class="form-control" [(ngModel)]="address" [ngModelOptions]="{standalone: true}"><br>
+  <button (click)="onAddEmployee()"   class="btn btn-dark" type="button">Add New Employee</button>
+</form>
+<script>
+  $( function() {
+    $( "#dialog" ).dialog();
+  } );
+</script>
+
