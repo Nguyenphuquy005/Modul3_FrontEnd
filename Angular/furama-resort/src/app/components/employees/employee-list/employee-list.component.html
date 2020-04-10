@@ -23,7 +23,7 @@
     <input type="text" class="form-control" [(ngModel)]="update.phoneNumber" [ngModelOptions]="{standalone: true}"><br>
     <div>10.Địa chỉ: </div>
     <input type="text"  class="form-control" [(ngModel)]="update.address" [ngModelOptions]="{standalone: true}"><br>
-    <button *ngIf="isedit" (click)="updateemployee()" class="btn btn-dark" type="button">Add New Employee</button>
+    <button *ngIf="isedit"  class="btn btn-dark" type="button">Add New Employee</button>
     <button *ngIf="isdelete" (click)="deleteAction()" class="btn btn-dark" type="button">Delete Employee</button>
   </form>
   <script>

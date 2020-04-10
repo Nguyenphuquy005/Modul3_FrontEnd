@@ -43,11 +43,6 @@ export class EmployeeListComponent implements OnInit {
     this.isdialog = false ;
   }
   updateemployee(newupdate: Employee) {
-    newupdate = this.update;
-    console.log(newupdate);
-    this.employeeService.updateEmployee(newupdate, this.id).subscribe(data => {
-      console.log(data);
-    });
   }
   deleteEmployee(employeeService: object) {
     this.isdialog = true;

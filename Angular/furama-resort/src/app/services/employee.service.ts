@@ -19,9 +19,9 @@ export class EmployeeService {
     // @ts-ignore
     return  this.http.post(this.API, newEmployee);
   }
-  updateEmployee(employee, id): Observable<any>{
+  updateEmployee(employee: Employee): Observable<any>{
     // @ts-ignore
-    return this.http.put(this.API + '/' + id, employee);
+    return this.http.put<Employee>(this.API, employee, httpOptions);
   }
   deleteEmployee(employee: object): Observable<Employee>{
     // @ts-ignore
